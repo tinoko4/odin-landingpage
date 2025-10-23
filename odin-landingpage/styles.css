@@ -5,25 +5,26 @@
 .MAINBOX1
 {
     background-color: #1f2937;
-    height: 120px;
+    height: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 200px;
 }
 .HEADER-LOGO
 {
     font-family: Roboto, sans-serif;
     color: white;
-    height: 50px;
-    width: 200px;
-    text-align:left;
     font-weight: 800;
     font-size: 32px;
-    margin-left: 260px;
-    margin-top: -5px;
-}
-.LINKS-BOX{
     display: flex;
     justify-content: center;
+    margin-top: -20px;
+}
+.LINKBOX
+{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 .LINKS1,
 .LINKS2,
@@ -31,71 +32,79 @@
 {
     font-family: Roboto, sans-serif;
     color: white;
-    height: 50px;
-    width: 125px;
-    text-align: left;
     font-size: 16px;
     font-weight: 400;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
-.LINKS3{
-    margin-right: 250px;
-
-
-}
-.MAINBOX2{
+.MAINBOX2
+{
     background-color: #1f2937;
     height: 550px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.CHILD1
+{
+    height: 80%;
+    width: 40%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
-.HEADER-LOGO2{
-    font-family: Roboto, sans-serif;
+.CHILD1TEXT-A{
     color: white;
-    height: 125px;
-    width: 300px;
-    text-align: left;
-    font-weight: 800;
-    font-size: 44px;
-    margin-left: 260px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-right: 120px;
+    height: -75px;
+    width: 500px;
 }
-.MB2-TEXT{
-    font-family: Roboto, sans-serif;
+.CHILD1TEXT-B{
     color: white;
-    text-align:left;
-    font-weight: 400;
-    font-size: 20px;
-    margin-left: 260px;
-    margin-top: 10px;
-    max-width: 100%;
-    height: auto;
-    float: left;
-    width: 550px;
-    height: 75px;
-}
-.MB2-SIGNUP{
-    background-color: #3882f6;
-    border-radius: 6px;
-    font-family: Roboto, sans-serif;
-    color: white;
-    height: 35px;
-    width: 125px;
-    font-weight: 800;
     font-size: 18px;
-    margin-left: 260px;
-    margin-top: 5px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+}
+.CHILD1-SIGNUP{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #3882F6;
+    border-radius: 8px;
+    background-color: #3882F6;
+    height: 25px;
+    width: 120px;
+}
+.CHILD2
+{
+    height: 40%;
+    width: 35%;
+    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.IMAGE1{
+.CHILD2TEXT{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
     display: flex;
-    justify-content: right;
-    margin-right: 250px;
-    margin-top: -350px;
-    max-width: 100%;
-    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
